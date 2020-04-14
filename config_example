@@ -1,0 +1,20 @@
+
+import os
+
+_base_root = os.getcwd()
+_COMMANDS_DIR = "handlers"
+_main_handler_filename = 'handlers.py'
+
+
+BOT_TOKEN = '*** your token ***'
+
+admin_id = *** admin id ***
+
+BOT_NAME = '*** bot name ***'
+
+_login_proxy = '***'
+_password_proxy = '***'
+
+_proxy_type = 'socks5'
+_host = '*****'
+_port = '*****'
