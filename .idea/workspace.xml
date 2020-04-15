@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fa7990e-ff4e-4dbb-b961-f4fe2f214902" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handlers/speech_to_text/stt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="753">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -115,9 +116,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="629" />
-    <option name="width" value="2782" />
+    <option name="x" value="120" />
+    <option name="y" value="641" />
+    <option name="width" value="1521" />
     <option name="height" value="1355" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -261,7 +262,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586874451748</updated>
       <workItem from="1586874452936" duration="21269000" />
-      <workItem from="1586896266334" duration="42622000" />
+      <workItem from="1586896266334" duration="44463000" />
     </task>
     <task id="LOCAL-00001" summary="config example">
       <created>1586894239746</created>
@@ -305,17 +306,38 @@
       <option name="project" value="LOCAL" />
       <updated>1586974505979</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="speech to text done">
+      <created>1586974750050</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586974750050</updated>
+    </task>
+    <task id="LOCAL-00008" summary="speech to text done">
+      <created>1586974825512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586974825512</updated>
+    </task>
+    <task id="LOCAL-00009" summary="speech to text done">
+      <created>1586975082170</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586975082170</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63891000" />
+    <option name="totallyTimeSpent" value="65732000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="629" width="2782" height="1355" extended-state="0" />
+    <frame x="120" y="641" width="1521" height="1355" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18148421" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33812457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -692,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/handlers/speech_to_text/stt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="753">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
