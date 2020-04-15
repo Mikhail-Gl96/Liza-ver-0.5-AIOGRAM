@@ -1,3 +1,4 @@
 /config.py
 /client_secret*
 /master-mote*
+*.pyc
