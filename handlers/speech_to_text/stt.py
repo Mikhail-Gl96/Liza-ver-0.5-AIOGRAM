@@ -15,7 +15,7 @@ async def speech_to_text(message: Message):
     voice_msg_id = message.reply_to_message.voice.file_id
     data_bytes = await dp.bot.get_file(voice_msg_id)
     await data_bytes.download()
-
+    # https://cloud.google.com/speech-to-text/docs/sync-recognize
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = _google_cloud_key_json_name
     client = speech_v1.SpeechClient()
     # The language of the supplied audio
