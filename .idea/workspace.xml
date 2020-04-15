@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa7990e-ff4e-4dbb-b961-f4fe2f214902" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/speech_to_text/stt.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/speech_to_text/stt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -262,7 +261,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586874451748</updated>
       <workItem from="1586874452936" duration="21269000" />
-      <workItem from="1586896266334" duration="42156000" />
+      <workItem from="1586896266334" duration="42622000" />
     </task>
     <task id="LOCAL-00001" summary="config example">
       <created>1586894239746</created>
@@ -292,11 +291,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586972868111</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="speech to text done">
+      <created>1586974283536</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586974283536</updated>
+    </task>
+    <task id="LOCAL-00006" summary="speech to text done">
+      <created>1586974505979</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586974505979</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63425000" />
+    <option name="totallyTimeSpent" value="63891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="629" width="2782" height="1355" extended-state="0" />
