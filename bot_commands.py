@@ -131,5 +131,6 @@ def import_all_commands_functions(path=path_handler_dir):
                 # print(f'import string =   {import_string}')
                 import_list.append(import_string)
     with open(f"{filename_handler_functions_import}.py", 'w', encoding='utf-8') as import_file:
+        import_file.write('# This is auto generated code\n')
         for i in import_list:
             import_file.write(i + '\n')

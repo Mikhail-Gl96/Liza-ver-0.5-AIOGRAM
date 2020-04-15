@@ -46,7 +46,8 @@ async def start_msg(message: Message):
 # Команда первого приветсвия нового пользователя
 @dp.message_handler(commands=['start'])
 async def start_msg(message: Message):
-    await message.answer(f'Привет, я {BOT_NAME}. Чтобы узнать как мной управлять - напиши команду /help')
+    await message.answer(f'Привет, {message.from_user.first_name} {message.from_user.last_name}.\n'
+                         f'Я {BOT_NAME}. Чтобы узнать меня поближе - напиши команду /help')
 
 
 # command
@@ -63,13 +64,13 @@ async def who_is(message: Message):
     await message.answer(data)
 
 
-
 # @dp.message_handler(state=Form.Name)
 # async def name_func(message: Message, state: FSMContext):
 #     name = message.text
 #     await state.update_data(name=name)
 #     await message.answer('Введите фамилию')
 #     await Form.Surname.set()
+
 #
 #
 # @dp.message_handler(state=Form.Surname)
