@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fa7990e-ff4e-4dbb-b961-f4fe2f214902" name="Default Changelist" comment="end text to speech&#10;try speech to text (failed)">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2fa7990e-ff4e-4dbb-b961-f4fe2f214902" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filename_handler_functions_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/filename_handler_functions_import.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/speech_to_text/stt.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/speech_to_text/stt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LIZA_ver_0_4_AIOGRAM$bot_commands.coverage" NAME="bot_commands Coverage Results" MODIFIED="1586886191802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LIZA_ver_0_4_AIOGRAM$main.coverage" NAME="main Coverage Results" MODIFIED="1586891658113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Liza_ver_0_5_AIOGRAM$main.coverage" NAME="main Coverage Results" MODIFIED="1586972542940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Liza_ver_0_5_AIOGRAM$main.coverage" NAME="main Coverage Results" MODIFIED="1586974037826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LIZA_ver_0_4_AIOGRAM$support_handlers.coverage" NAME="support_handlers Coverage Results" MODIFIED="1586886142524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handlers/support" />
   </component>
   <component name="FileEditorManager">
@@ -55,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/handlers/speech_to_text/stt.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
-              <caret line="24" column="84" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -264,7 +262,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586874451748</updated>
       <workItem from="1586874452936" duration="21269000" />
-      <workItem from="1586896266334" duration="40978000" />
+      <workItem from="1586896266334" duration="42156000" />
     </task>
     <task id="LOCAL-00001" summary="config example">
       <created>1586894239746</created>
@@ -287,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586919835277</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="speech to text done">
+      <created>1586972868111</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586972868111</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62247000" />
+    <option name="totallyTimeSpent" value="63425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="629" width="2782" height="1355" extended-state="0" />
@@ -392,7 +397,8 @@
     </ignored-roots>
     <MESSAGE value="config example" />
     <MESSAGE value="end text to speech&#10;try speech to text (failed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="end text to speech&#10;try speech to text (failed)" />
+    <MESSAGE value="speech to text done" />
+    <option name="LAST_COMMIT_MESSAGE" value="speech to text done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/channels_db.py">
@@ -674,7 +680,7 @@
     <entry file="file://$PROJECT_DIR$/handlers/speech_to_text/stt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="24" column="84" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

@@ -41,8 +41,10 @@ async def speech_to_text(message: Message):
     # print(u"Waiting for operation to complete...")
     # response = operation.result()
     # print('this is response  ')
-    answer = str()
+    answer = "Не удалось распознать сообщение"
+    os.remove(name_mp3)
     for result in response.results:
+        # print(result)
         # First alternative is the most probable result
         alternative = result.alternatives[0]
         answer = alternative.transcript
