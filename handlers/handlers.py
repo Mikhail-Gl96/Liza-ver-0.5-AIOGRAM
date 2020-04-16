@@ -36,6 +36,8 @@ Example:
                                                         help message
 @dp.message_handler(commands=['start'])      <-- Now the script search for "@dp.message_handler(commands=[" part 
                                                  to show the function in help message 
+        (commands=['start', 'start1', ...])  <-- You can set more commands separate by comma
+
 < the normal example of async handler's function is below >
 async def start_msg(message: Message):
     await message.answer(f'Привет, я {BOT_NAME}. Чтобы узнать как мной управлять - напиши команду /help')
