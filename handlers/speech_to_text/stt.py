@@ -1,6 +1,6 @@
 from main import dp
 from aiogram.types import Message
-from config import _google_cloud_key_json_name, _sTT_google_sp_kit_lang
+from config import _google_cloud_key_json_name, _sTT_google_sp_kit_lang, _path_to_ffmpeg
 import os
 import io
 from google.cloud import speech_v1
@@ -72,7 +72,7 @@ def convert_to_pcm16b16000r(in_filename=None, in_bytes=None):
 
         # Запрос в командную строку для обращения к FFmpeg
         command = [
-            r'bin\ffmpeg.exe',  # путь до ffmpeg.exe
+            f'{_path_to_ffmpeg}',  # путь до ffmpeg.exe
             '-i', in_filename,
             '-f', 's16le',
             '-acodec', 'pcm_s16le',
