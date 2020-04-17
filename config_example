@@ -26,3 +26,5 @@ _sTT_google_sp_kit_lang = "ru-RU"
 _google_cloud_key_json_name =  '*** your json ***'
 
 _path_to_ffmpeg = r'bin\ffmpeg.exe'
+
+_accuweather_api_key = '*** your key ***'
