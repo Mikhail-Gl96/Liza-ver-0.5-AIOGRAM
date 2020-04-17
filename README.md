@@ -78,5 +78,5 @@ async def start_msg(message: Message):
 
 Разработчика этого бота можно найти в вк:
 * https://vk.com/id18456544
-
+* Сам бот - @Liza_Sh_bot
 
