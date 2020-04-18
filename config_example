@@ -1,5 +1,5 @@
-
 import os
+import sys
 
 _base_root = os.getcwd()
 _COMMANDS_DIR = "handlers"
@@ -25,6 +25,9 @@ _sTT_google_sp_kit_lang = "ru-RU"
 
 _google_cloud_key_json_name =  '*** your json ***'
 
-_path_to_ffmpeg = r'bin\ffmpeg.exe'
+_path_to_ffmpeg = r'bin\ffmpeg.exe' if sys.platform in ['win32', 'cygwin'] else 'ffmpeg'
 
 _accuweather_api_key = '*** your key ***'
+
+
+_separator = '\\' if sys.platform in ['win32', 'cygwin'] else '/'
