@@ -3,7 +3,7 @@ import langdetect
 from gtts import gTTS
 from langdetect import DetectorFactory
 from langdetect.lang_detect_exception import LangDetectException
-from config import yTTs_key
+from config import yTTs_key, _separator
 from aiogram.types import Message
 import os
 import random
@@ -47,7 +47,7 @@ async def say_text_yandex_func(msg, message, format_audio='mp3'):
     try:
         text, lang = await args_validation(msg, 'yandex', message)
         tts = yTTS(text=text, lang=lang, format='mp3')
-        name_audio = f'.\\audio_yandex_{message.from_user.id}.{format_audio}'
+        name_audio = f'.{_separator}audio_yandex_{message.from_user.id}.{format_audio}'
         tts.save_file(name=name_audio)
         audio_file = open(f'{name_audio}', 'rb')
         return audio_file, name_audio
@@ -166,7 +166,7 @@ async def say_text_google(message: Message):
         answer = await say_text_google_func(text, message)
         # reply_audio
         await message.reply_audio(answer[0])
-        os.remove(f'.\\{answer[1]}')
+        os.remove(f'.{_separator}{answer[1]}')
     except IndexError:
         await message.reply('Добавьте к команде слово для озвучивания')
 
@@ -180,7 +180,7 @@ async def say_text_google(message: Message):
         answer = await say_text_google_func(text, message, format_audio='ogg')
         # reply_audio
         await message.reply_audio(answer[0])
-        os.remove(f'.\\{answer[1]}')
+        os.remove(f'.{_separator}{answer[1]}')
     except IndexError:
         await message.reply('Добавьте к команде слово для озвучивания')
 

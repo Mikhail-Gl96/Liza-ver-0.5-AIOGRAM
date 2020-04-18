@@ -1,11 +1,12 @@
 import os
+from config import _separator
 
 from config import _COMMANDS_DIR, _base_root, _main_handler_filename
 
 if __name__ == "__main__":
     _base_root = os.getcwd().split(f"{_COMMANDS_DIR}")[0]
 
-path_handler_dir = _base_root + f"\\{_COMMANDS_DIR}"  # Path to handler dir
+path_handler_dir = _base_root + f"{_separator}{_COMMANDS_DIR}"  # Path to handler dir
 handler_dir = os.listdir(path_handler_dir)  # All objects from handler path
 
 # filename of file with all functions which ought to be imported in main handler.py
@@ -21,15 +22,15 @@ def get_files_paths(path):
     temp_paths = list()
     for i in os.listdir(path):
         # print(f'    inside func object= {i},  path= {path}')
-        if os.path.isdir(path + f'\\{i}'):
-            if os.path.isdir(path + f'\\{i}'):
+        if os.path.isdir(path + f'{_separator}{i}'):
+            if os.path.isdir(path + f'{_separator}{i}'):
                 # print(f'        {i} is a dir')
-                temp_paths.extend(get_files_paths(path + f'\\{i}'))
+                temp_paths.extend(get_files_paths(path + f'{_separator}{i}'))
 
         else:
             # print(f'        {i} is a file')
             if i[-3:] == ".py":
-                temp_paths.append(path + f'\\{i}')
+                temp_paths.append(path + f'{_separator}{i}')
     # print(f'temp_paths ===== {temp_paths}')
     return temp_paths.copy()
 
@@ -119,11 +120,11 @@ def import_all_commands_functions(path=path_handler_dir):
     for file_path in get_files_paths(path):
         # print(f"get_files_paths ========  {file_path}   \n"
         #       f"                          {path_handler_dir}\\{_main_handler_filename}")
-        if file_path != (path_handler_dir + f'\\{_main_handler_filename}'):
+        if file_path != (path_handler_dir + f'{_separator}{_main_handler_filename}'):
             funcs_from_a_file = _get_all_commands_functions_names(file_path=file_path)
             for func in funcs_from_a_file:
                 # print(f'file_path= {file_path} _COMMANDS_DIR= {_COMMANDS_DIR}\n')
-                file_dirs = file_path[file_path.find(f'{_COMMANDS_DIR}')+len(f'{_COMMANDS_DIR}'):].split("\\")[1:]
+                file_dirs = file_path[file_path.find(f'{_COMMANDS_DIR}')+len(f'{_COMMANDS_DIR}'):].split(f"{_separator}")[1:]
                 file_dirs[-1] = file_dirs[-1].replace(".py", "")
                 # print(f'file_dirs=  {file_dirs}')
                 import_string = f'from {_COMMANDS_DIR}.{".".join(file_dirs)} import {func}'

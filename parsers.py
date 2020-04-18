@@ -9,7 +9,6 @@ def html_decode(s):
     NOT remove normal HTML tags like <p>.
     """
     htmlCodes = (
-
             ('&#39;', "'"),
             ('&quot;', '"'),
             ('&gt;', '>'),

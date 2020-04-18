@@ -2,10 +2,9 @@
 /client_secret*
 /master-mote*
 *.pyc
-__pycache__/
-/.idea
-*.pyc
-*.pyc
+__pycache__
+.idea
+*.mp3
 *.exe
-*.pyc
-*.pyc
+/first_start_heroku_commands.txt
+update_bot_on_heroku.bat

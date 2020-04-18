@@ -1,0 +1,17 @@
+
+google-cloud-speech
+
+langdetect
+gTTS
+
+xmltodict
+
+requests
+
+aiohttp_socks
+aiohttp
+asyncio
+
+Image
+
+aiogram
